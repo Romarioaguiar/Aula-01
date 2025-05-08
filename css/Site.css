@@ -1,0 +1,86 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, sans-serif !important;
+    text-align: center !important;
+    background-color: #f4f4ff !important;
+    
+}
+
+header{
+    background-color: #333 !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    padding: 1em !important;
+}
+
+footer{
+    background-color: #333 !important;
+    color: #fff !important;
+    padding: 0.8em !important;
+}
+
+nav{
+    background-color:  rgb(228, 205, 186) !important;
+    padding: 0.5em !important;
+}
+
+nav a {
+    text-decoration: none !important;
+    color: #333 !important;
+    font-weight: bold !important;
+    padding: 0.5em !important;
+}
+
+nav a:hover{
+    background-color: rgb(83, 52, 133) !important;
+}
+
+main{
+    background-color: rgb(228, 205, 186) !important;
+    max-width: 50em !important;
+    margin: auto !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 1em !important;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1) !important;
+}
+
+.box-container{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.box{
+    background-color: lightcoral !important;
+    width: 100px !important;
+    height: 100px !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    border-radius: 1em !important;
+}
+
+
+#primeira{
+    background-color: darkcyan !important;
+}
+
+#terceira{
+    background-color: darkolivegreen !important;
+}
+
+.image-container{
+    display: flex !important;
+    justify-content: center !important;
+    gap: 5em !important;
+}
+
+.image-container img{
+    width: 10em !important;
+    border-radius: 1em !important;
+}
+
